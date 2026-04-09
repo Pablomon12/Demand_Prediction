@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Entornos
+.venv/
+venv/
+
+# Tests / tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# MLflow / artefactos
+mlruns/
+mlflow.db
+
+# Outputs generados
+reports/
+*.joblib
+*.pkl
+
+# Sistema / IDE
+.DS_Store
+.vscode/
+.idea/
